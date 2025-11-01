@@ -5,6 +5,8 @@ x402BTC Lightning Network
 
 
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7941e6b7-d56f-4113-bf0f-74d69228a4ba" />
+
 
 
 
