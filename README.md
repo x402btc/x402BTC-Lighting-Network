@@ -16,17 +16,17 @@ Lightning Network
  node for the x402BTC ecosystem.
 x402lnd includes several pluggable back-end chain services such as
 btcd
- (a full node),
+ (full node),
 bitcoind
 , and
 neutrino
- (a light client).
+ (experimental light client).
 
 The project leverages the btcsuite
  Bitcoin libraries and exports
 a large set of reusable Lightning Network-related modules.
 
-x402lnd is capable of:
+x402lnd currently supports:
 
 Creating payment channels
 
@@ -84,9 +84,9 @@ HTTP REST API
 gRPC Service (gRPC
 )
 
-⚠️ The APIs are under active development and may change significantly.
+⚠️ The APIs are still under active development and may change significantly.
 
-You can find automatically generated API documentation at:
+You can find auto-generated API documentation at:
 👉 api.x402btc.network
 
 Additional developer guides, tutorials, and example apps are available at:
@@ -94,7 +94,8 @@ Additional developer guides, tutorials, and example apps are available at:
 
 Community members and developers are welcome to join our active
 Slack
- or the IRC channel for collaboration and discussion.
+ or the
+IRC channel for collaboration and discussion.
 
 New contributors are encouraged to start with code review guidelines
 
