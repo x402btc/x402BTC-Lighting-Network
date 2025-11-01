@@ -11,7 +11,7 @@ x402BTC Lightning Network
 
 
 
-<img src="logo.png">
+
 
 The x402BTC Lightning Network Daemon (x402lnd) is a complete implementation of a
 Lightning Network
