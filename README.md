@@ -1,58 +1,54 @@
-x402BTC Lightning Network
+x402BTC Lightning Network Daemon
+
+
+
+
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/761baf6d-f65e-4a7f-ac8a-d77a244198b0" />
 
 
 
 
 
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7941e6b7-d56f-4113-bf0f-74d69228a4ba" />
-
-
-
-
-
-
+<img src="logo.png">
 
 The x402BTC Lightning Network Daemon (x402lnd) is a complete implementation of a
 Lightning Network
- node for the x402BTC ecosystem.
-x402lnd includes several pluggable back-end chain services such as
+ node built for the x402BTC ecosystem.
+
+x402lnd provides pluggable back-end chain services, including:
 btcd
- (full node),
+ (full-node),
 bitcoind
 , and
 neutrino
- (experimental light client).
+ (light client).
 
-The project leverages the btcsuite
- Bitcoin libraries and exports
-a large set of reusable Lightning Network-related modules.
+Built upon btcsuite
+, the project offers modular, reusable Lightning Network libraries for developers building on x402BTC.
 
-x402lnd currently supports:
+In its current version, x402lnd supports:
 
-Creating payment channels
+Creating and closing payment channels
 
-Closing channels
+Managing all channel states (including exceptions)
 
-Full channel state management (including exception handling)
+Maintaining an authenticated + validated channel graph
 
-Maintaining an authenticated and validated channel graph
+Network pathfinding and payment forwarding
 
-Network path finding and passive payment forwarding
+Sending onion-encrypted payments
 
-Sending outgoing onion-encrypted payments
-
-Updating advertised fee schedules
+Updating advertised routing fees
 
 Automatic channel management (autopilot
 )
 
 Lightning Network Specification Compliance
 
-x402lnd fully conforms to the Lightning Network specification (BOLTs)
+x402lnd fully complies with the Lightning Network specification (BOLTs)
 .
-BOLT stands for Basis of Lightning Technology. The specifications are a collaborative effort
-among multiple implementations, including x402lnd.
+BOLT stands for Basis of Lightning Technology — a globally maintained set of standards that x402lnd follows.
 
 Current BOLT compliance:
 
@@ -78,39 +74,44 @@ Current BOLT compliance:
 
 Developer Resources
 
-x402lnd is built for developers and supports application integration through
-two primary RPC interfaces:
+x402lnd is developer-friendly and includes two primary RPC interfaces:
 
 HTTP REST API
 
-gRPC Service (gRPC
+gRPC Service (Learn about gRPC
 )
 
-⚠️ The APIs are still under active development and may change significantly.
+⚠️ These APIs are still evolving and may change in upcoming releases.
 
-You can find auto-generated API documentation at:
-👉 api.x402btc.network
+API Documentation:
+📘 api.x402btc.network
 
-Additional developer guides, tutorials, and example apps are available at:
-👉 docs.x402btc.network
+Developer Guides, Tutorials, and Resources:
+📚 docs.x402btc.network
 
-Community members and developers are welcome to join our active
-Slack
- or the
-IRC channel for collaboration and discussion.
+📖 x402BTC Developer Guide
 
-New contributors are encouraged to start with code review guidelines
+🧠 Step-by-Step Lightning Setup Guide
 
-before opening pull requests.
+⚙️ Docker & Payment Flow Guide
+
+Join our developer community on:
+💬 Slack
+ or
+💻 IRC at irc.libera.chat
+
+First-time contributors should start with the
+🧩 Code Review Guidelines
+.
 
 Installation
 
-To build from source, follow the installation guide
+To build from source, follow the Installation Instructions
 .
 
 Docker
 
-To run x402lnd in Docker, see the Docker setup guide
+To run x402lnd with Docker, see the Docker Setup Guide
 .
 
 IRC
@@ -123,21 +124,27 @@ Webchat: Join Here
 
 Safety
 
-When running a mainnet x402lnd node, review our operational safety guidelines
+When operating a mainnet node, always review the
+Operational Safety Guidelines
 .
-⚠️ x402lnd is still considered beta software, and failure to follow best practices may lead to loss of funds.
+
+⚠️ Warning: x402lnd is beta software. Ignoring safety procedures can result in loss of funds.
 
 Security
 
-The x402lnd team takes security very seriously.
-If you discover a potential vulnerability, please report it responsibly via email to
-security@x402btc.network
+The developers of x402lnd take security and privacy very seriously.
+If you identify a potential issue, please disclose it responsibly via email to
+📧 security@x402btc.network
 , preferably encrypted using our PGP key
 (91FE464CD75101DA6B6BAB60555C6465E5BCB3AF), available here
 .
 
 Further Reading
 
-Step-by-step send payment guide with Docker
+Step-by-Step Send Payment Guide (Docker)
 
-Contribution guide
+Contribution Guide
+
+Lightning Developer Resources
+
+x402BTC Ecosystem Overview
